@@ -2,6 +2,7 @@
 from facerecognition import FaceRecognition
 from detectLocation import Location
 from mongodb import MongoDB
+import numpy as np
 import threading
 locVerified=False
 threads=[]
